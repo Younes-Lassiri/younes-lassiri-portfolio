@@ -1,0 +1,173 @@
+.resume-section{
+    background-color: #F6F3FC;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 100px 0;
+}
+
+
+
+.experience{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 6.5fr;
+    font-size: 47px;
+    background: linear-gradient(to right, #8750f7 0%, #0f0715 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+    line-height: 1.3em;
+    font-family: Sora, sans-serif;
+    justify-self: center;
+}
+
+.experience-title{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+
+
+
+
+.education{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 6.5fr;
+    font-size: 47px;
+    background: linear-gradient(to right, #8750f7 0%, #0f0715 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+    line-height: 1.3em;
+    font-family: Sora, sans-serif;
+    justify-self: start;
+}
+
+.education-title{
+    display: flex;
+    align-items: center;
+}
+
+.exp-one{
+    width: 100%;
+    background-color: #fff;
+    grid-column: 1/3;
+    border-radius: 20px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 32px 25px 10px 25px;
+    transition: 2s;
+}
+
+.exp-one:hover .exp-one-date{
+    color: white;
+}
+
+.exp-one:hover .exp-one-title{
+    color: white;
+}
+.exp-one:hover .exp-one-des{
+    color: white;
+}
+
+
+.exp-one:hover{
+    background: linear-gradient(to right, #4b4b97, #43235c);
+}
+
+
+.exp-one-date{
+    color: #8750f7;
+    font-size: 17px;
+    font-family: Sora, sans-serif;
+    padding-bottom: 10px;
+    transition: .3s;
+    font-weight: 700;
+}
+
+.exp-one-title{
+    font-size: 18px;
+    font-family: Sora, sans-serif;
+    color: #0f0715;
+    font-weight: 700;
+    padding-bottom: 10px;
+    transition: .3s;
+}
+
+.exp-one-des{
+    font-size: 14px;
+    font-family: Sora, sans-serif;
+    color: #000009;
+    font-weight: 700;
+    transition: .3s;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .exp-one{
+        margin-top: 22px;
+        padding: 18px 25px 10px 25px;
+    }
+    .resume-section{
+        grid-template-columns: 1fr;
+        padding-top: 35px;
+        padding-bottom: 0;
+    }
+    .experience{
+        font-size: 25px;
+        justify-self: start;
+        width: 95%;
+        letter-spacing: 1.3px;
+        margin: 0 auto;
+        
+    }
+    .educationLogo{
+        display: flex;
+        align-items: center;
+    }
+    .educationLogo img{
+        width: 50px;
+    }
+    .experienceLogo{
+        display: flex;
+        align-items: center;
+    }
+    .experienceLogo img{
+        width: 50px;
+    }
+    .exp-one-title{
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+
+    .education{
+        padding: 50px 0;
+        font-size: 30px;
+        justify-self: start;
+        width: 95%;
+        margin: 0 auto;
+        letter-spacing: 1.3px;
+        
+    }
+
+    
+.experience-title{
+    margin-top: 5px;
+}
+
+    
+.education-title{
+    margin-top: 5px;
+}
+
+
+}

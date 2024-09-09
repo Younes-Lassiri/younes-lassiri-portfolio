@@ -1,0 +1,24 @@
+/*.portfolio-landing{
+    width: 100%;
+    background: linear-gradient(80deg, #000009, #2a1454);
+}
+
+
+
+.onScroll{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #050709;
+    z-index: 1000;
+    box-shadow: 0px 1px 17px rgba(136, 80, 247, 0.356);
+}
+
+
+
+*/
+
+body{
+    overflow-x: hidden;
+}

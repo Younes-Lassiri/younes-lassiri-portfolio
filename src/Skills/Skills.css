@@ -1,0 +1,130 @@
+.skills-section{
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 100px 0;
+}
+
+.skills-title{
+    font-size: 50px;
+    background: linear-gradient(to right, #8750f7 0%, #0f0715 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+    line-height: 1.3em;
+    justify-self: center;
+}
+
+.skills-p{
+    text-align: center;
+    padding: 15px 0;
+    justify-self: center;
+    color: #000009;
+    font-size: 17px;
+    font-weight: 600;
+    transition: .8s;
+}
+
+
+
+
+.item img{
+    width: 40%;
+    filter: grayscale(100%);
+    transition: .6s;
+}
+
+.item{
+    background-color: #F6F3FC;
+    font-size: 16px;
+    font-family: Sora, sans-serif;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    transition: .6s;
+    transition: border-color 0.3s;
+    border: 1px solid transparent;
+}
+
+.item:hover{
+    background-color: #2a163a;
+    overflow: hidden;
+    border-color: #8750f7;
+}
+
+.item:hover img{
+    filter: grayscale(0%);
+    transform: scale(1.1);
+
+}
+
+.item span{
+    font-size: 20px;
+    font-weight: 700;
+    color: #747779;
+    font-family: Sora, sans-serif;
+}
+
+.item:hover span{
+    color: #8750f7;
+}
+
+.skills-logos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 22px;
+    padding: 60px 90px 0 90px;
+}
+
+
+.skills-name{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 0 90px;
+    gap: 25px;
+}
+
+
+.name{
+    color: #8750f7;
+    text-align: center;
+}
+
+
+.hh{
+    font-weight: 600;
+    font-size: 16px;
+    padding: 25px 0;
+    font-family: Sora, sans-serif;
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .skills-logos{
+        grid-template-columns: 1fr 1fr;
+        padding: 60px 60px 0 60px;
+    }
+    .skills-name{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .skills-p{
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    .skills-title{
+        font-size: 35px;
+    }
+
+    .skills-section{
+        padding: 50px 0;
+    }
+}

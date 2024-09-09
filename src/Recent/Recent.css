@@ -1,0 +1,452 @@
+.recent-section{
+    background-color: #ffffff;
+    display: grid;
+    padding: 80px 0;
+    grid-template-columns: 1fr;
+}
+
+
+
+.recent-title{
+    justify-self: center;
+}
+
+
+.recent-p p{
+    color: #000009;
+    font-size: 17px;
+    font-weight: 400;
+}
+.recent-p{
+    padding: 15px 0;
+    text-align: center;
+    justify-self: center;
+}
+
+.recent-section h1 {
+    font-size: 50px;
+    background: linear-gradient(to right, #8750f7 0%, #0f0715 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+    line-height: 1.3em;
+}
+
+
+.recent-ul li{
+    list-style-type: none;
+    color: #8750f7;
+    font-weight: 400;
+}
+
+
+.recent-ul{
+    align-self: center;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #f6f3fc;
+    border-radius: 50px;
+}
+
+
+.un, .deux, .trois, .quatre{
+    background: linear-gradient(to right, #4b4b97, #0f0715);
+    animation: fadeRight 1s alternate;
+    
+}
+.un li{
+    color: #fff;
+}
+.deux li{
+    color: #fff;
+}
+.trois li{
+    color: #fff;
+}
+.quatre li{
+    color: #fff;
+}
+
+@keyframes fadeRight{
+    from{
+        opacity: 0.5;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.recent-one{
+    justify-self: center;
+    align-self: center;
+    border-radius: 50px;
+    padding: 19px 26px;
+    line-height: 1;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-family: Sora, sans-serif;
+    cursor: pointer;
+}
+
+.recent-two{
+    justify-self: center;
+    align-self: center;
+    border-radius: 50px;
+    padding: 19px 26px;
+    line-height: 1;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-family: Sora, sans-serif;
+    cursor: pointer;
+}
+
+.recent-three{
+    justify-self: start;
+    align-self: center;
+    border-radius: 50px;
+    padding: 19px 26px;
+    line-height: 1;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-family: Sora, sans-serif;
+    cursor: pointer;
+}
+
+.recent-four{
+    justify-self: start;
+    align-self: center;
+    border-radius: 50px;
+    padding: 19px 26px;
+    line-height: 1;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-family: Sora, sans-serif;
+    cursor: pointer;
+}
+
+
+
+
+.project-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 45px;
+    padding: 60px 0;
+}
+
+
+
+
+
+.project-section-one div{
+    width: 100%;
+    height: 400px;
+}
+
+.project-section-one div img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+.project-section-two div{
+    width: 100%;
+    height: 400px;
+}
+
+.project-section-two div img{
+    width: 100%;
+    height: 100%;
+}
+
+.project-section-one{
+    width: 95%;
+    background-color: #140c1c;
+    border-radius: 10px;
+    padding: 23px 23px 0 23px;
+    justify-self: end;
+    position: relative;
+}
+
+.project-section-two{
+    width: 95%;
+    background-color: #140c1c;
+    border-radius: 10px;
+    padding: 23px 23px 0 23px;
+    justify-self: start;
+    position: relative;
+}
+
+
+
+.project-section-one .showUp h3{
+    color: white;
+}
+
+
+.project-section-one .showUp{
+    width: 93%;
+    background: linear-gradient(to right, #4b4b97, #29113b);
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 120px;
+    padding: 10px;
+    grid-template-columns: 3fr 0.5fr;
+    border-radius: 13px;
+    display: none;
+    animation: hover .3s backwards;
+    cursor: pointer;
+}
+
+
+@keyframes hover{
+    from{
+        opacity: 0.2;
+        bottom: -20px;
+    }
+    to{
+        opacity: 1;
+        bottom: 20px;
+    }
+}
+
+
+.showUp .showUp-one{
+    height: 100px;
+    color: #dddddd;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+.showUp .showUp-one h3{
+    color: white;
+    font-weight: 700;
+    font-size: 23px;
+}
+
+
+
+
+.showUp .showUp-two{
+    color: white;
+    font-size: 45px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    transform: rotate(-120deg);
+    animation: arrow .2s both;
+}
+
+@keyframes arrow{
+    to{
+        transform: rotate(45deg);
+    }
+}
+
+.project-section-one:hover .showUp{
+    display: grid;
+}
+
+.project-section-two .showUp h3{
+    color: white;
+}
+
+
+.project-section-two .showUpTwo{
+    width: 93%;
+    background: linear-gradient(to right, #4b4b97, #29113b);
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 120px;
+    padding: 10px;
+    grid-template-columns: 3fr 0.5fr;
+    border-radius: 13px;
+    animation: hover .3s backwards;
+    cursor: pointer;
+    display: none;
+}
+
+
+@keyframes hover{
+    from{
+        opacity: 0.2;
+        bottom: -20px;
+    }
+    to{
+        opacity: 1;
+        bottom: 20px;
+    }
+}
+
+
+.showUpTwo .showUpTwo-one{
+    height: 100px;
+    color: #dddddd;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 10px;
+    letter-spacing: 1px;
+    text-align: right;
+    direction: rtl
+}
+
+.showUpTwo .showUpTwo-one h3{
+    color: white;
+    font-weight: 700;
+    font-size: 23px;
+}
+
+
+
+
+.showUpTwo .showUpTwo-two{
+    color: white;
+    font-size: 45px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    transform: rotate(-120deg);
+    animation: arrow .2s both;
+}
+
+@keyframes arrow{
+    to{
+        transform: rotate(45deg);
+    }
+}
+
+.project-section-two:hover .showUpTwo{
+    display: grid;
+}
+
+@media only screen and (max-width: 767px) {
+    .recent-p p{
+        font-size: 14px;
+    }
+    .project-section{
+        grid-template-columns: 1fr;
+    }
+    
+    .project-section-one{
+        justify-self: center;
+        width: 95%;
+        padding: 23px 15px 0 15px;
+    }
+    .project-section-two{
+        justify-self: center;
+        width: 95%;
+        padding: 23px 15px 0 15px;
+    }
+
+    
+.project-section-one .showUp h3{
+    color: white;
+}
+
+
+.project-section-one .showUp{
+    width: 94%;
+    height: 95px;
+    padding-top: 0;
+}
+
+
+.showUp .showUp-one{
+    height: 85px;
+    color: #dddddd;
+    font-weight: 700;
+    font-size: 11px;
+}
+
+.showUp .showUp-one h3{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+
+
+
+.showUp .showUp-two{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+   
+.project-section-two .showUpTwo h3{
+    color: white;
+}
+
+
+.project-section-two .showUpTwo{
+    width: 94%;
+    height: 95px;
+    padding-top: 0;
+}
+
+
+.showUpTwo .showUpTwo-one{
+    height: 85px;
+    color: #dddddd;
+    font-weight: 700;
+    font-size: 11px;
+}
+
+.showUpTwo .showUpTwo-one h3{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+
+
+
+.showUpTwo .showUpTwo-two{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.recent-one{
+    padding: 12px 12px;
+}
+
+.recent-two{
+    padding: 12px 12px;
+}
+
+.recent-three{
+    padding: 12px 12px;
+}
+
+.recent-four{
+    padding: 12px 12px;
+}
+.recent-section h1{
+    font-size: 35px;
+}
+}

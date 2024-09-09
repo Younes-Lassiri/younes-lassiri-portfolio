@@ -1,0 +1,372 @@
+body{
+    overflow-x: hidden;
+}
+
+.detailsRoute {
+    height: 60vh;
+    width: 100%;
+    background: 
+        linear-gradient(
+            rgba(20, 12, 28, 0.5), 
+            rgba(20, 12, 28, 0.5)
+        ), 
+        url('https://gerold.themejunction.net/wp-content/uploads/2024/05/breadcrumb-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.detailsRouteH h1{
+    font-weight: 700;
+    font-family: Italic;
+}
+
+
+.detailsRouteH{
+    width: fit-content;
+    margin: 0 auto;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+
+.royalChicDetail{
+    width: 95%;
+    margin: 0 auto;
+    background-color: #F6F3FC;
+    padding: 55px 55px 0 55px;
+    margin-top: 100px;
+}
+.royalChicDetail img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.royalChicDetailOne{
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 40px 0;
+    grid-gap: 60px;
+}
+
+.royalChicDetailOneOneOne{
+    color: #2a1454;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+
+.royalChicDetailOneOneTwo{
+    font-size: 15px;
+    font-weight: 400;
+    color: #2a1454;
+    padding: 25px 0;
+}
+.royalChicDetailOneOneThree button{
+    background: linear-gradient(250deg, #4b4b97, #34156e);
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 50px;
+    padding: 6px 32px;
+    transition: 0.7s;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.royalChicDetailOneOneThree a{
+    text-decoration: none;
+}
+.royalChicDetailOneOneThree button:hover{
+    background: linear-gradient(250deg, #34156e, #4b4b97);
+}
+.royalChicDetailOneOneThree button:hover span{
+    transform: rotate(90deg);
+}
+.royalChicDetailOneOneThree span{
+    font-size: 25px;
+    font-weight: 100;
+    transform: rotate(45deg);
+    transition: .4s;
+}
+
+.royalChicDetailOneTwo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+.detailProject{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: start;
+    gap: 5px;
+}
+
+.detailProject .projectWho{
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #7A7A7A;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.detailProject .projectWhy{
+    color: #2a1454;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.projectPicsSlider-section{
+    width: 95%;
+    margin: 0 auto;
+    height: 58vh;
+}
+.projectPicsSlider-section-slider-tag
+{
+    width: 100%;
+    width: 95%;
+    margin: 0 auto;
+    height: 58vh;
+    justify-content: center;
+}
+.projectPicsSlider-section-slider-tag div
+{
+    height: 81%;
+    margin: 0 15px;
+    transform: translateX(10%);
+}
+.projectPicsSlider-section-slider-tag div img
+{
+    width: 100%;
+}
+@keyframes spanClicked {
+    to {
+        width: 30px;
+    }
+}
+.projectDescription{
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+.projectDescriptionOne{
+    color: #2a1454;
+    font-weight: 700;
+    font-size: 47px;
+}
+
+.projectDescriptionTwo{
+    font-size: 15px;
+    font-weight: 400;
+    color: #2a1454;
+}
+.font-styling {
+    font-size: 16px;
+    font-weight: 400;
+    color: #2a1454;
+    padding: 15px 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.projectDescriptionThree{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 40px 0;
+}
+.projectDescriptionFour{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.projectDescriptionThreeOne{
+    color: #2a1454;
+    font-weight: 700;
+    font-size: 30px;
+}
+.projectDescriptionThreeTwo{
+    font-size: 16px;
+    font-weight: 400;
+    color: #2a1454;
+}
+
+.projectDescriptionFive{
+    width: 100%;
+    padding: 40px 0;
+    margin: 70px auto;
+    background-color: #8750f7;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.projectArrows{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    text-decoration: none;
+}
+.projectArrowsTwo{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 5.5fr 1fr;
+    text-decoration: none;
+}
+.projectDescriptionFiveOne{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    color: #fff;
+    font-weight: 100;
+}
+.projectDescriptionFiveOne span{
+    transform: rotate(-45deg);
+    transition: .7s;
+    cursor: pointer;
+}
+.projectDescriptionFiveOne span:hover{
+    transform: rotate(-90deg);
+}
+
+.projectDescriptionFiveOneCondition{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: #fff;
+    font-weight: 100;
+}
+.projectDescriptionFiveOneCondition span{
+    transform: rotate(45deg);
+    transition: .7s;
+    cursor: pointer;
+}
+.projectDescriptionFiveOneCondition span:hover{
+    transform: rotate(90deg);
+}
+.projectDescriptionFiveTwo{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    color: #fff;
+}
+
+.projectDescriptionFiveTwoCondition{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    color: #fff;
+}
+.projectDescriptionFiveTwo span{
+    font-weight: 400;
+    font-size: 17px;
+}
+.projectDescriptionFiveTwo h1{
+    font-weight: 800;
+    font-size: 42px;
+}
+
+
+
+
+@media only screen and (max-width: 767px){
+    .projectPicsSlider-section-slider-tag
+    {
+        height: 50vh;
+    }
+    .projectPicsSlider-section-slider-tag div
+    {
+        margin: 0;
+        transform: translateX(0);
+    }
+    .detailsRoute{
+        height: 40vh;
+    }
+    .royalChicDetail{
+        padding: 15px 15px 0 15px;
+        margin-top: 60px;
+    }
+    .royalChicDetailOne{
+        grid-template-columns: 1fr;
+    }
+    .royalChicDetailOneOneThree button{
+        padding: 6px 25px;
+        font-size: 15px;
+        gap: 10px;
+    }
+    .royalChicDetailOneOneThree span{
+        font-size: 22px;
+    }
+    .royalChicDetailOneTwo{
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+    .projectDescriptionOne{
+        font-size: 30px;
+        padding: 25px 0 7px 0;
+    }
+    .projectDescriptionTwo{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .projectDescriptionThreeTwo{
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .projectDescriptionThreeOne{
+        font-size: 25px;
+        padding: 5px 0;
+    }
+    .projectDescriptionThree{
+        grid-template-columns: 1fr;
+    }
+    .projectDescriptionFour{
+        grid-template-columns: 1fr;
+    }
+    .projectDescriptionFive{
+        padding: 20px 0;
+    }
+    .projectDescriptionFiveTwo{
+        padding: 0;
+    }
+    .projectDescriptionFiveTwo span{
+        font-size: 12px;
+    }
+    .projectDescriptionFiveTwo h1{
+        font-size: 23px;
+    }
+    .projectDescriptionFiveOne{
+        font-size: 23px;
+    }
+    lllm
+
+    .projectDescriptionFiveTwoCondition{
+        padding: 0;
+    }
+    .projectDescriptionFiveTwoCondition span{
+        font-size: 12px;
+    }
+    .projectDescriptionFiveTwoCondition h1{
+        font-size: 23px;
+    }
+    .projectDescriptionFiveOneCondition{
+        font-size: 23px;
+    }
+}
