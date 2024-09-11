@@ -1,18 +1,12 @@
 body{
     overflow-x: hidden;
 }
-
-
 .landing-section {
     position: relative;
     width: 100%;
-    background: linear-gradient(to right, #fff, rgba(135, 80, 247, 0.05));
+    background: #f9f9f9;
     overflow: hidden;
 }
-/*
-
-*/
-
 .hi {
     color: transparent;
     font-size: 250px;
@@ -50,18 +44,8 @@ body{
     width: 100%;
     align-items: center;
     z-index: 100;
-  }
-
-/*.landing-infos::before,
-.landing-infos::after {
-    content: "";
-    position: absolute;
-    width: 50%;
-    height: 100%;
-    top: 0;
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.048), rgba(0, 0, 0, 0));
 }
-*/
+
 .landing-section::before {
     left: 0;
     transform: skewX(-25deg);
@@ -71,14 +55,14 @@ body{
     right: 0;
     transform: skewX(25deg);
 }
-
-
-
-
   .infosOne{
-    justify-self: end;
-    padding: 0 50px;
+    padding: 0 30px 0 50px;
     z-index: 100;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
   }
   .infosOne h1 span{
     color: #0f0715;
@@ -86,25 +70,25 @@ body{
     z-index: 100;
   }
   .infosOne p {
-    color: #0f0715;
-    font-weight: 400;
-    font-size: 16px;
-    letter-spacing: 1px;
+    color: #555;
     line-height: 1.7em;
     z-index: 100;
+    font-family: Mulish, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
   }
 
   .infosOne h1 {
-    font-size: 50px;
-    background: linear-gradient(to right, #8750f7 0%, #0f0715 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
     font-weight: 700;
-    line-height: 1.3em;
-    z-index: 100;
+    color: #2d2e32;
+    letter-spacing: 2px;
+    font-size: 3.7rem;
 }
-
+.infosOne h1 img
+{
+    width: 50px;
+    margin: -10px 15px;
+}
 
 .infosOne .buttons {
     padding: 15px 0;
@@ -122,10 +106,10 @@ body{
     z-index: 100;
 }
 
-.social-icons img{
-    padding: 6px;
-    border-radius: 50%;
-    border: 1px solid #8750f7;
+.social-icons a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
     transition: .7s;
     z-index: 100;
@@ -136,7 +120,7 @@ body{
 }
 
 .infosOne .buttons button{
-    color: #8750f7;
+    color: #2d2e32;
     border: none;
     display: flex;
     align-items: center;
@@ -145,10 +129,9 @@ body{
     font-size: 15px;
     line-height: 1;
     font-weight: 500;
-    color: #8750f7;
     border-radius: 50px;
     padding: 17px 45px;
-    border: 1px solid #8750f7;
+    border: 1px solid #555;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
@@ -157,75 +140,40 @@ body{
     z-index: 100;
 }
 .infosOne .buttons button:hover{
-    background-color: #8750f7;
+    background-color: #2d2e32;
     color: whitesmoke;
 }
-
+.infosTwo
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
 .infosTwo img{
-    width: 100%;
-    animation: ani 2s infinite alternate backwards;
+    width: 60%;
     z-index: 100;
+    border: 3px solid #2d2e32;
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    animation: morph 8s ease-in-out infinite;
+    transition: all 1s ease-in-out;
 }
-
-@keyframes ani{
-    to{
-        transform: translateY(-20px);
+@keyframes morph
+{
+    0% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     }
-}
-
-.numbers{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    z-index: 100;
-    padding: 50px 100px;
-}
-
-.part{
-    display: grid;
-    z-index: 100;
-    grid-template-columns: 0.5fr 2fr;
-    gap: 20px;
-}
-
-.num{
-    justify-self: end;
-    z-index: 100;
-    align-self: center;
-    font-weight: 700;
-    font-size: 55px;
-    color: #8750f7;
-    font-family: "Helvetica Neue", sans-serif;
-}
-.text{
-    align-self: center;
-    z-index: 100;
-    color: #8750f7;
-    font-size: 18px;
-    font-family: Sora, sans-serif;
-    z-index: 100;
+    50% {
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+    100% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
 }
 @media only screen and (max-width: 767px) {
     .hi{
         font-size: 200px;
         top: 20%;
-    }
-    .numbers{
-        grid-template-columns: 1fr 1fr;
-        padding: 15px 20px 120px 20px;
-        gap: 40px;
-    }
-    .part{
-        grid-template-columns: 1fr;
-        gap: 0;
-    }
-
-    .num{
-        justify-self: center;
-    }
-    .text{
-        align-self: center;
-        justify-self: center;
     }
     .landing-infos{
         grid-template-columns: 1fr;

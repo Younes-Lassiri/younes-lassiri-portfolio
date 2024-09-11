@@ -69,7 +69,7 @@ body{
     padding: 25px 0;
 }
 .royalChicDetailOneOneThree button{
-    background: linear-gradient(250deg, #4b4b97, #34156e);
+    background: #2d2e32;
     color: white;
     border: none;
     font-weight: 700;
@@ -88,7 +88,7 @@ body{
     text-decoration: none;
 }
 .royalChicDetailOneOneThree button:hover{
-    background: linear-gradient(250deg, #34156e, #4b4b97);
+    background: #555;
 }
 .royalChicDetailOneOneThree button:hover span{
     transform: rotate(90deg);
@@ -208,7 +208,7 @@ body{
     width: 100%;
     padding: 40px 0;
     margin: 70px auto;
-    background-color: #8750f7;
+    background-color: #2d2e32;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }

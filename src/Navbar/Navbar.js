@@ -141,9 +141,9 @@ export default function Navbar(props) {
 
 
         <div className="hamburger-toggle humb" onClick={() => setMobile(!mobile)}>
-                <span className="line top" style={props.detail === true? {backgroundColor:'#8750f7'}: {}} ></span>
-                <span className="line middle" style={props.detail === true? {backgroundColor:'#8750f7'}: {}} ></span>
-                <span className="line bottom" style={props.detail === true? {backgroundColor:'#8750f7'}: {}} ></span>
+                <span className="line top" style={props.detail === true? {backgroundColor:'#2d2e32'}: {}} ></span>
+                <span className="line middle" style={props.detail === true? {backgroundColor:'#2d2e32'}: {}} ></span>
+                <span className="line bottom" style={props.detail === true? {backgroundColor:'#2d2e32'}: {}} ></span>
             </div>
     </div>
 

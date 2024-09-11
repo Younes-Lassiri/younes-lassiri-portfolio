@@ -116,7 +116,6 @@ const project = [
         descs: "Welcome to Hyperon Clothes Store, your one-stop shop for the latest fashion trends. From stylish casual wear to elegant formal outfits, we offer a curated collection of clothing to suit every occasion. Our platform provides a user-friendly shopping experience where you can easily find your favorite pieces, customize sizes, and complete your purchase with confidence. Hyperon Clothes Store ensures a smooth and enjoyable online shopping journey with fast shipping and excellent customer service.",
         approach: "At Hyperon Clothes Store, we aim to deliver a seamless shopping experience with a focus on quality, style, and convenience. Our online platform allows you to explore a vast array of fashion options, add items to your cart, and proceed through a hassle-free checkout process. We prioritize customer satisfaction by offering responsive support, secure payment methods, and swift delivery. With Hyperon, you can stay ahead of the fashion curve and enjoy a premium shopping experience from the comfort of your home.",
     }
-    
 ]
 
 export default project;

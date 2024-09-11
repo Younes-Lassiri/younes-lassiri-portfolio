@@ -7,10 +7,10 @@
 
 .skills-title{
     font-size: 50px;
-    background: linear-gradient(to right, #8750f7 0%, #0f0715 100%);
+    
     -webkit-background-clip: text;
     background-clip: text;
-    color: transparent;
+    color: #2d2e32;
     font-weight: 700;
     line-height: 1.3em;
     justify-self: center;
@@ -53,9 +53,9 @@
 }
 
 .item:hover{
-    background-color: #2a163a;
+    background-color: #2d2e32;
     overflow: hidden;
-    border-color: #8750f7;
+    border-color: #2d2e32;
 }
 
 .item:hover img{
@@ -72,7 +72,7 @@
 }
 
 .item:hover span{
-    color: #8750f7;
+    color: #fff;
 }
 
 .skills-logos{
@@ -92,7 +92,7 @@
 
 
 .name{
-    color: #8750f7;
+    color: #2d2e32;
     text-align: center;
 }
 

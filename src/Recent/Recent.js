@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react'
-import front from './Images/front.png';
-import cour from './Images/cour.png';
-import weather from './Images/weather.png';
-import sushi from './Images/sushimain.png';
-import hyperonmain from './Images/hyperon_main.png';
+import front from './Images/front_landing.png';
+import cour from './Images/cour_landing.png';
+import weather from './Images/weather_landing.png';
+import sushi from './Images/sushi_landing.png';
+import hyperonmain from './Images/hyperon_landing.png';
 import './Recent.css'
 import { Link } from 'react-router-dom'
 function isMobileDevice() {
@@ -13,16 +13,13 @@ function isMobileDevice() {
 export default function Recent() {
     const [clicked, setClicked] = useState('un')
     const [isMobile, setIsMobile] = useState(0);
-    const [hovered, setHovered] = useState('one')
     useEffect(() => {
       setIsMobile(isMobileDevice() ? 1 : 0);
     }, []);
     function app(){
       return(
         <div className='project-section-one'>
-                <div>
                     <img src={weather}/>
-                </div>
                 <Link to='/portfolios/2/weather_app'>
                 <div className='showUp'>
                     <div className='showUp-one'>
@@ -55,24 +52,20 @@ export default function Recent() {
             {clicked === 'quatre'? app() : (
               <>
                 <div className='project-section-one'>
-                <div>
-                    <img src={front}/>
-                </div>
-                <Link to='/portfolios/0/y&m-Royal-Chic'>
-                <div className='showUp'>
-                    <div className='showUp-one'>
-                        <h3>Y&M ROYAL CHIC</h3>
-                        The project is centered around an online store called Y&M ROYAL CHIC that specializes in women's clothing.</div>
-                    <div className='showUp-two'>↑</div>
-                </div>
+                        <img src={front}/>
+                    <Link to='/portfolios/0/y&m-Royal-Chic'>
+                    <div className='showUp'>
+                        <div className='showUp-one'>
+                            <h3>Y&M ROYAL CHIC</h3>
+                            The project is centered around an online store called Y&M ROYAL CHIC that specializes in women's clothing.</div>
+                        <div className='showUp-two'>↑</div>
+                    </div>
 
-                </Link>
-            </div>
+                    </Link>
+                </div>
             
             <div className='project-section-two'>
-            <div>
                     <img src={cour}/>
-                </div>
                 <Link to='/portfolios/1/cour-appel-laayoune'>
                 <div className='showUpTwo'>
                     <div className='showUpTwo-one'>
@@ -86,9 +79,7 @@ export default function Recent() {
 
             </div>
             <div className='project-section-one'>
-                <div>
                     <img src={weather}/>
-                </div>
                 <Link to='/portfolios/2/weather_app'>
                 <div className='showUp'>
                     <div className='showUp-one'>
@@ -100,9 +91,7 @@ export default function Recent() {
             </div>
 
             <div className='project-section-one'>
-                <div>
                     <img src={sushi}/>
-                </div>
                 <Link to='/portfolios/3/fidalgo_sushi_restaurant'>
                 <div className='showUp'>
                     <div className='showUp-one'>
@@ -110,13 +99,10 @@ export default function Recent() {
                         Discover the ultimate sushi experience with our online restaurant!</div>
                     <div className='showUp-two'>↑</div>
                 </div>
-
                 </Link>
             </div>
             <div className='project-section-one'>
-                <div>
                     <img src={hyperonmain}/>
-                </div>
                 <Link to='/portfolios/4/hyperon_clothes_store'>
                 <div className='showUp'>
                     <div className='showUp-one'>

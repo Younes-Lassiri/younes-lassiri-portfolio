@@ -1,82 +1,19 @@
 import React from 'react'
 import './Resume.css'
 import 'boxicons'
-import exp from './pic/aaaex-removebg-preview (1).png'
-import ep from './pic/aaaape-removebg-preview.png'
 export default function Resume() {
   return (
-    <div className='resume-section' id='resume'>
-
-
-        <div className='experience'>
-        <div className='experienceLogo'>
-            <img src={exp}/>
+    <div className='about-section'>
+      <div className='about-section-one'>
+        <div className='about-section-one-one'>
+          <img src='https://www.stefantopalovic.com/static/media/about-img.62b47e7f183d4b4e9feb.webp' alt='about'/>
         </div>
-            <div className='experience-title'>My Experience</div>
-
-
-            <div className="exp-one">
-
-                <h6 className='exp-one-date'>2024 - Present</h6>
-
-                <h5 className='exp-one-title'>FULL STACK WEB DEVELOPER</h5>
-                <h4 className='exp-one-des'>Laayoune, OFPPT</h4>
-            </div>
-
-
-
-            <div className="exp-one">
-
-                <h6 className='exp-one-date'>2022 - 2023</h6>
-
-                <h5 className='exp-one-title'>Wordpress</h5>
-                <h4 className='exp-one-des'>Laayoune, OFPPT</h4>
-            </div>
-
-
-            <div className="exp-one">
-
-                <h6 className='exp-one-date'>2023 - 2024</h6>
-
-                <h5 className='exp-one-title'>Figma Design</h5>
-                <h4 className='exp-one-des'>Laayoune, OFPPT</h4>
-            </div>
-        </div>
-
-
-
-        <div className='education'>
-            <div className='educationLogo'>
-            <img src={ep}/>
-            </div>
-            <div className='education-title'>My Education</div>
-
-            <div className="exp-one">
-
-                <h6 className='exp-one-date'>2024 - Present</h6>
-
-                <h5 className='exp-one-title'>FULL STACK WEB DEVELOPER</h5>
-                <h4 className='exp-one-des'>Laayoune, OFPPT</h4>
-            </div>
-
-
-            <div className="exp-one">
-
-                <h6 className='exp-one-date'>2024 - Present</h6>
-
-                <h5 className='exp-one-title'>FULL STACK WEB DEVELOPER</h5>
-                <h4 className='exp-one-des'>Laayoune, OFPPT</h4>
-            </div>
-
-            <div className="exp-one">
-
-                <h6 className='exp-one-date'>2024 - Present</h6>
-
-                <h5 className='exp-one-title'>FULL STACK WEB DEVELOPER</h5>
-                <h4 className='exp-one-des'>Laayoune, OFPPT</h4>
-            </div>
-        </div>
-
+      </div>
+      <div className='about-section-two'>
+        <h2>About me</h2>
+        <h1>Full stack Developer based in Laayoune, Morocco 📍</h1>
+        <p>Hey, my name is Younes, and I'm a Full stack Developer. My passion is to create and develop a clean UI/UX for my users.My main stack currently is React/Next.js/Node js in combination with Tailwind CSS and TypeScript.</p>
+      </div>
     </div>
   )
 }

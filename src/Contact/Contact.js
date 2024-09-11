@@ -75,7 +75,7 @@ export default function Contact() {
         <div className='contact-right'>
 
 
-            <div className='contact-phone'><box-icon name='phone-call' color='#ffffff' size='35px' style={{ background: 'linear-gradient(to right, #8750f7 0%, #2a1454 100%)', padding: '7px', borderRadius: '50px' }}></box-icon></div>
+            <div className='contact-phone'><box-icon name='phone-call' color='#ffffff' size='35px' style={{ background: '#2d2e32', padding: '7px', borderRadius: '50px' }}></box-icon></div>
 
             <div className='phone-text'>
                 <div className='phone-one tt'>Phone</div>
@@ -83,7 +83,7 @@ export default function Contact() {
             </div>
 
 
-            <div className='contact-phone'><box-icon name='envelope' color='#ffffff' size='35px' style={{ background: 'linear-gradient(to right, #8750f7 0%, #2a1454 100%)', padding: '7px', borderRadius: '50px' }}></box-icon></div>
+            <div className='contact-phone'><box-icon name='envelope' color='#ffffff' size='35px' style={{ background: '#2d2e32', padding: '7px', borderRadius: '50px' }}></box-icon></div>
 
             <div className='email-text'>
                 <div className='email-one tt'>Email</div>
@@ -91,11 +91,11 @@ export default function Contact() {
             </div>
 
 
-            <div className='contact-phone'><box-icon name='map' color='#ffffff' size='35px' style={{ background: 'linear-gradient(to right, #8750f7 0%, #2a1454 100%)', padding: '7px', borderRadius: '50px' }}></box-icon></div>
+            <div className='contact-phone'><box-icon name='map' color='#ffffff' size='35px' style={{ background: '#2d2e32', padding: '7px', borderRadius: '50px' }}></box-icon></div>
 
             <div className='map-text'>
                 <div className='map-one tt'>Address</div>
-                <div className='map-two yy'>Warne Park Street Pine,<br></br>FL 33157, New York</div>
+                <div className='map-two yy'>Laayoune,<br></br>Av 33157, Morocco</div>
             </div>
 
             
