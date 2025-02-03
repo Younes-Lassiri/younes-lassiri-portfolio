@@ -4,6 +4,7 @@
     grid-template-columns: 1fr;
     padding: 50px 0 20px;
     justify-self: center;
+    width: 100%;
 }
 
 .footer-logo{
