@@ -6,7 +6,7 @@ export default function Resume() {
     <div className='about-section'>
       <div className='about-section-one'>
         <div className='about-section-one-one'>
-          <img src='https://www.stefantopalovic.com/static/media/about-img.62b47e7f183d4b4e9feb.webp' alt='about'/>
+          <img src='https://static.vecteezy.com/system/resources/thumbnails/011/153/366/small/3d-web-developer-working-on-project-illustration-png.png' alt='about'/>
         </div>
       </div>
       <div className='about-section-two'>
