@@ -18,7 +18,7 @@ export default function Landing() {
         <text className="hi">HI</text>
         <div className='infosOne'>
             <h1>Full Stack Developer
-            <img src='https://www.stefantopalovic.com/static/media/waving.1bae5fcfb51082b5c2b4.png' alt='portfolio'/></h1>
+            <img src='https://w7.pngwing.com/pngs/806/254/png-transparent-hand-waving-wave-emoji-wave-hand-arm-sign-thumbnail.png' alt='portfolio'/></h1>
             <p>
                 Hi, I'm Younes. A passionate Full Stack Developer based in Laayoune, Morocco. 📍
             </p>
